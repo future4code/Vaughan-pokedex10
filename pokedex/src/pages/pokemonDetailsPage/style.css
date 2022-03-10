@@ -1,0 +1,11 @@
+header {
+  
+    background-color: red;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: flex;
+  }
+
+  

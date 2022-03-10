@@ -1,0 +1,157 @@
+
+
+
+.rock {
+  background-color: white;
+}
+.ghost {
+  background-color: white;
+}
+.electric {
+  background-color: white;
+}
+.bug {
+  background-color: white;
+}
+.poison {
+  background-color: white;
+}
+.normal {
+  background-color: white;
+}
+.fairy {
+  background-color: white;
+}
+.fire {
+  background-color: white;
+}
+.grass {
+  background-color: white;
+}
+.water {
+  background-color:white;
+}
+.ice {
+    background-color: white;
+}
+.fighting {
+    background-color: white;
+}
+.ground {
+    background-color: white;
+}
+.flying {
+    background-color: white;
+}
+.psychic {
+    background-color: white;
+}
+.dragon {
+    background-color: white;
+}
+.dark {
+    background-color: white;
+}
+.steel {
+    background-color: white;
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+}
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-containers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0 ;
+  margin: 0.3rem;
+  border: 1px solid #efefef;
+  border-radius: 0.2rem;
+  min-width: 220px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+h3 {
+  margin-bottom: 0.2rem;
+}
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255,255,255,0.3);
+}
+.thumb-container img {
+  width: 100px;
+  height: 100px;
+}
+.thumb-container small {
+  text-transform: capitalize;
+}
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.buttons-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 18.72px;
+}
+.buttons-card button {
+  width: 90px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-icon{
+    filter: invert(64%) sepia(55%) saturate(3585%) hue-rotate(313deg) brightness(86%) contrast(118%);
+}
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: .5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+
+header {
+  
+    background-color: red;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: flex;
+  }
+
+  .button-pokedex{
+   
+    display: flex;
+    justify-content: center ;
+    align-items:center;
+background-color: red ;
+  }
